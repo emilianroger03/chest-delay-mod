@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "chest-delay",
+  "version": "${version}",
+  "name": "Chest Delay",
+  "description": "Adds a 1-second delay when opening chests. Breaking during the delay drops items, but the chest still opens with contents after.",
+  "authors": ["Emilian"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.emilian.chestdelay.ChestDelayMod"]
+  },
+  "mixins": [
+    "chestdelay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

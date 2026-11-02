@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.emilian.chestdelay.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ChestBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
